@@ -3,10 +3,8 @@ body{
     text-align: center;
     color: blanchedalmond;
     background-color: cadetblue;
-    /* dentro da div */
-    padding: 5%;
-    /* fora da div */
-    margin: 3%;
+    padding: 5%; /* dentro da div */
+    margin: 3%; /* fora da div */
     border: 5px solid #f0b6d5;
 }
 
@@ -22,6 +20,7 @@ nav ul {
     display: flex;
     align-items: center;
     list-style: none;
+    font-size: 15px;
 }
 
 ul li {
@@ -47,6 +46,7 @@ footer {
     color: blanchedalmond;
     border-top: 1px solid #f0b6d5;
     margin-top: 20px;
+    font-size: 20px;
 }
 
 #gif {
@@ -59,4 +59,8 @@ footer {
 
 #tp { 
     font-size: 30px;
+}
+
+#sub {
+    padding-top: 20px;
 }
