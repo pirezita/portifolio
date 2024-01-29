@@ -1,0 +1,50 @@
+body{
+    font-family: Helvetica;
+    text-align: center;
+    color: blanchedalmond;
+    background-color: cadetblue;
+    /* dentro da div */
+    padding: 5%;
+    /* fora da div */
+    margin: 3%;
+    border: 5px solid #f0b6d5;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    /* divisor, pique quebra de texto */
+    border-bottom: 1px solid #f0b6d5;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+ul li {
+    margin-right: 12px;
+}
+
+ul li a {
+    color: blanchedalmond;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+img {
+    border: 3px solid #f0b6d5;
+    width: 50%;
+    
+}
+
+footer {
+    padding: 20px;
+    color: blanchedalmond;
+    border-top: 1px solid #f0b6d5;
+    margin-top: 20px;
+}
